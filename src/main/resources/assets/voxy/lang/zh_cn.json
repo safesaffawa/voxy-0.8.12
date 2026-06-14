@@ -1,0 +1,56 @@
+{
+  "voxy.config.title": "Voxy",
+
+  "voxy.config.general": "通用",
+  "voxy.config.rendering": "渲染",
+
+  "voxy.config.general.enabled": "启用Voxy",
+  "voxy.config.general.enabled.tooltip": "完全启用或禁用Voxy",
+
+  "voxy.config.general.serviceThreads": "服务线程",
+  "voxy.config.general.serviceThreads.tooltip": "服务线程池可使用的线程数量",
+
+  "voxy.config.general.useSodiumBuilder": "使用Sodium线程",
+  "voxy.config.general.useSodiumBuilder.tooltip": "将Sodium的构建线程纳入Voxy的线程池，可在高渲染距离下快速移动时减少卡顿与延迟",
+
+  "voxy.config.general.ingest": "区块处理",
+  "voxy.config.general.ingest.tooltip": "启用或禁用Voxy将新区块转换为层次细节(LoD)模型的功能",
+
+  "voxy.config.general.rendering": "Voxy渲染",
+  "voxy.config.general.rendering.tooltip": "启用或禁用Voxy渲染功能",
+
+  "voxy.config.general.subDivisionSize": "细分大小(像素²)",
+  "voxy.config.general.subDivisionSize.tooltip": "细分到更小的层次细节(LoD)前，屏幕空间轴对齐包围盒(AABB)的最大像素平方大小（数值越小，画质越高）",
+
+  "voxy.config.general.renderDistance": "渲染距离",
+  "voxy.config.general.renderDistance.tooltip": "Voxy的渲染距离，单位为区块",
+
+  "voxy.config.general.environmental_fog": "启用环境雾",
+  "voxy.config.general.environmental_fog.tooltip": "启用或禁用Voxy的环境雾渲染效果",
+
+  "voxy.config.general.render_fog": "启用渲染雾",
+  "voxy.config.general.render_fog.tooltip": "启用或禁用渲染雾效果",
+
+  "voxy.config.general.ssao_mode": "SSAO模式",
+  "voxy.config.general.ssao_mode.tooltip": "屏幕空间环境光遮蔽(SSAO)使用的模式（自动模式会在降低性能开销的同时尝试选择最优选项）",
+
+  "voxy.config.general.ssao_mode.auto": "自动",
+  "voxy.config.general.ssao_mode.basic": "基础",
+  "voxy.config.general.ssao_mode.better": "较好",
+  "voxy.config.general.ssao_mode.best": "最佳",
+
+  "voxy.config.general.adaptCloudDistance": "自适应云层距离",
+  "voxy.config.general.adaptCloudDistance.tooltip": "启用或禁用自适应云层距离",
+
+  "voxy.config.general.cloudDistance": "云层距离",
+  "voxy.config.general.cloudDistance.tooltip": "云层距离，单位为区块（仅在禁用自适应云层距离时使用）",
+
+  "voxy.config.general.fogIntensity": "雾强度",
+  "voxy.config.general.fogIntensity.tooltip": "雾的强度，数值越高雾越浓，能见度越低",
+
+  "voxy.config.general.fogDensity": "雾密度",
+  "voxy.config.general.fogDensity.tooltip": "雾的密度，数值越高雾越浓",
+
+  "voxy.config.general.skyFogDistance": "天空雾距离",
+  "voxy.config.general.skyFogDistance.tooltip": "天空雾开始渲染的距离，单位为区块"
+}
