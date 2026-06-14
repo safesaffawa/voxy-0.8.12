@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       workflow_name:
-        description: 'new voxy manual artifact'
+        description: 'Custom voxy workflow name'
         required: true
-        default: 'voxy-workflow'
+        default: 'new voxy manual artifact'
         type: string
 
 jobs:
