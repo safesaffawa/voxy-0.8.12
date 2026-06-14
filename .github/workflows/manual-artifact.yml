@@ -1,6 +1,14 @@
 name: manual-artifact
 
-on: [ workflow_dispatch ]
+on: 
+  workflow_dispatch:
+    inputs:
+      workflow_name:
+        description: 'Custom workflow name'
+        required: true
+        default: 'voxy-workflow'
+        type: string
+
 jobs:
   build:
     runs-on: ubuntu-latest
